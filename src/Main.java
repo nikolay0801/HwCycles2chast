@@ -1,7 +1,3 @@
-import java.io.PrintStream;
-import java.lang.reflect.Array;
-import java.util.Arrays;
-import java.util.Collections;
 
 public class Main {
 
@@ -39,7 +35,7 @@ public class Main {
         int[] array = generateRandomArray();
         int min = Integer.MAX_VALUE; // Любое значение меньше MAX, сразу будет присвоено МИНИМУМ
         int max = Integer.MIN_VALUE;// Любое Значение больше MIN, Будет присвоен МАКСИМУМ.
-        for (int i = 0; i < array.length; i++) {
+        for (int i = 0; i < array.length; i++){
             if (array[i] < min) {
                 min = array[i];
             }
