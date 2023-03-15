@@ -47,7 +47,7 @@ public class Main {
         System.out.println("\n " + max);
     }
 
-    public static void task3() {
+    public static void task3() { // Исправленная
         System.out.println("\n" + " Задача 3 ");
         int[] array = generateRandomArray();
         float summ = 0f; // Использовал тип Float,для дробных чисел
@@ -59,7 +59,7 @@ public class Main {
         }
     }
 
-        public static void task4 () {
+        public static void task4 () { // Исправленная
             System.out.println("\n" + " Задача 4 ");
             char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
             for (int i = reverseFullName.length - 1; i >= 0; i--) {
