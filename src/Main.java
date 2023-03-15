@@ -50,10 +50,11 @@ public class Main {
     public static void task3() {
         System.out.println("\n" + " Задача 3 ");
         int[] array = generateRandomArray();
-        long summ = 0;
+        float summ = 0f;
         for (int n : array) {
             summ += n;
-            summ = summ / 30;
+        }
+        { summ = summ / 30;
             System.out.println("\n " + " Средняя сумма трат за месяц, составляет  " + summ + " Рублей");
         }
     }
