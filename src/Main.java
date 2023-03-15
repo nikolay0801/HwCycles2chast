@@ -50,7 +50,7 @@ public class Main {
     public static void task3() {
         System.out.println("\n" + " Задача 3 ");
         int[] array = generateRandomArray();
-        float summ = 0f;
+        float summ = 0f; // Использовал тип Float,для дробных чисел
         for (int n : array) {
             summ += n;
         }
